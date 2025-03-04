@@ -16,8 +16,8 @@ import { useDispatch, useSelector } from "react-redux";
 /* ACTION CREATORS */
 import { listProducts } from "../actions/productActions";
 
-function HomeScreen({ history }) {
-  const dispatch = useDispatch();
+function HomeScreen({ history }) { 
+  const dispatch = useDispatch(); 
 
   /* PULLING A PART OF STATE FROM THE ACTUAL STATE IN THE REDUX STORE */
   const productList = useSelector((state) => state.productList);

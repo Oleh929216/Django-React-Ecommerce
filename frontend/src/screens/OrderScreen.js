@@ -16,11 +16,11 @@ import Loader from "../components/Loader";
 /* REACT - REDUX */
 import { useDispatch, useSelector } from "react-redux";
 
-/* ACTION CREATORS */
+/* ACTION CREATORS */ 
 import {
-  getOrderDetails,
+  getOrderDetails, 
   payOrder,
-  deliverOrder,
+  deliverOrder, 
 } from "../actions/orderActions";
 
 /* ACTION TYPES */

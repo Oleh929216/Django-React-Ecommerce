@@ -21,7 +21,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { listProductDetails, updateProduct } from "../actions/productActions";
 
 /* ACTION TYPES */
-import { PRODUCT_UPDATE_RESET } from "../constants/productConstants";
+import { PRODUCT_UPDATE_RESET } from "../constants/productConstants"; 
 
 function ProductEditScreen({ match, history }) {
   /* GETTING USER ID FROM URL */
